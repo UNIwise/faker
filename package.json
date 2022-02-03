@@ -1,11 +1,10 @@
 {
-  "name": "@withshepherd/faker",
+  "name": "@uniwise/faker",
   "description": "Generate massive amounts of fake contextual data",
   "private": false,
   "version": "5.5.4",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/withshepherd/faker.js.git"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "browser": "./node_modules/.bin/gulp browser",
